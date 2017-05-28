@@ -4,7 +4,7 @@
 #include <windows.h>
 #else
 #include <R_ext/eventloop.h>
-#include <gdk/gdkx.h>
+#include <gdk/gdkquartz.h>
 #include <unistd.h>
 #include <stdint.h>
 #define CSTACK_DEFNS
